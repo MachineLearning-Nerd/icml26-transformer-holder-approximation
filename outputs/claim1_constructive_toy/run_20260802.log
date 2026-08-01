@@ -1,0 +1,42 @@
+{
+  "experiment": "clean-room one-attention-block plus ReLU-readout approximation",
+  "claim_scope": "reduced d0=3 alpha=1 bounded Lipschitz target; toy empirical evidence, not a universal theorem proof",
+  "seed": 20260802,
+  "ntrain": 4000,
+  "ntest": 8000,
+  "widths": [
+    16,
+    64,
+    256
+  ],
+  "device": "local CPU",
+  "python": "3.14.5 (main, May 10 2026, 18:26:20) [GCC 16.1.1 20260430]",
+  "numpy": "2.4.6",
+  "platform": "Linux-7.0.9-arch2-1-x86_64-with-glibc2.43",
+  "rows": [
+    {
+      "seed": 20260802,
+      "width": 16,
+      "l2_test_error": 0.3118048771929148,
+      "mse_test_error": 0.09722228144128865,
+      "permuted_label_l2_error": 0.463644047801171,
+      "control_degrades": true
+    },
+    {
+      "seed": 20260802,
+      "width": 64,
+      "l2_test_error": 0.15448500361342923,
+      "mse_test_error": 0.023865616341441246,
+      "permuted_label_l2_error": 0.47229535610172213,
+      "control_degrades": true
+    },
+    {
+      "seed": 20260802,
+      "width": 256,
+      "l2_test_error": 0.10655183024478898,
+      "mse_test_error": 0.011353292528514327,
+      "permuted_label_l2_error": 0.4787716270991705,
+      "control_degrades": true
+    }
+  ]
+}
