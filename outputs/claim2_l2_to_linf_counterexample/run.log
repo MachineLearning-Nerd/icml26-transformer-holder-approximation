@@ -1,0 +1,2 @@
+src/claim2_l2_to_linf_counterexample.py --out outputs/claim2_l2_to_linf_counterexample
+exit_code=0

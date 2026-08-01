@@ -1,25 +1,26 @@
 {
   "schema_version": 1,
   "openreview_id": "mWBxEAq9lv",
-  "phase": "claim_1_attempt_2_constructive_local_cpu_toy_complete",
-  "next_action": "perform_claim_1_independent_review_then_select_next_protocol_path",
+  "phase": "claim_2_attempt_1_l2_to_linf_proof_counterexample_complete",
+  "next_action": "independent_review_claim_2_falsification_then_advance_claim_3",
   "active_run_ids": [],
   "completed_milestones": [
     "live_duplicate_gate",
     "live_contract_saved",
     "source_archive_and_pdf_pinned",
     "claim_1_attempt_1_source_cpu_audit",
-    "claim_1_attempt_2_constructive_local_cpu_toy"
+    "claim_1_attempt_2_constructive_local_cpu_toy",
+    "claim_2_attempt_1_l2_to_linf_proof_counterexample"
   ],
   "failed_attempts": [],
   "claim_attempt_counts": {
     "1": 2,
-    "2": 0,
+    "2": 1,
     "3": 0,
     "4": 0
   },
-  "last_checkpoint": "2026-08-01T10:40:00Z",
-  "last_known_git_commit": "6b34fcb601760269b0bca847042e2319f8aa6f8d",
+  "last_checkpoint": "2026-08-01T12:45:00Z",
+  "last_known_git_commit": "PENDING_COMMIT",
   "publication_allowed": false,
   "compute_policy": "local CPU/local GPU only; no HF cpu-upgrade, Jobs, paid, or remote compute",
   "github_repository": "https://github.com/MachineLearning-Nerd/icml26-repro-mWBxEAq9lv-transformer-holder-approximation",
@@ -28,5 +29,11 @@
     "scope": "clean-room d0=3 alpha=1 bounded Lipschitz target with one explicit attention encoder and ReLU readout; not universal Theorem 4.1 validation",
     "evidence": "outputs/claim1_constructive_toy/audit.md",
     "negative_control": "permuted train labels increase L2 error in every 15 seed\u00d7width cell"
+  },
+  "claim_2_outcome": {
+    "verdict": "falsified",
+    "scope": "The pinned proof route from L2 approximation to uniform sign preservation is invalid; this does not rule out an alternative lower-bound proof.",
+    "evidence": "outputs/claim2_l2_to_linf_counterexample/result.json",
+    "negative_control": "constant function has equal L2/Linfinity norms but does not validate the universal inference"
   }
 }

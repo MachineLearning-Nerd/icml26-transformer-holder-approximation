@@ -8,3 +8,7 @@ Pinned-source, CPU-executable reproduction workspace for ICML 2026 paper `mWBxEA
 .venv/bin/python src/claim1_constructive_transformer_toy.py --seed 20260801 --out outputs/claim1_constructive_toy
 sha256sum -c evidence/source/SHA256SUMS
 ```
+
+## Claim 2
+
+A direct executable counterexample falsifies the pinned theorem proof route: `logbook/claim-2.md`.

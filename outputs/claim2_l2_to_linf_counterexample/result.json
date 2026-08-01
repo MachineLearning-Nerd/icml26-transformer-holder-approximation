@@ -1,0 +1,73 @@
+{
+  "claim": "Theorem 5.3 matching-type VC lower bound",
+  "pinned_proof_step": "bounded functions on compact [0,1]^d: L2 and Linfinity are equal",
+  "verdict": "falsified",
+  "scope": "The pinned proof inference from L2 approximation to uniform sign preservation is false; this falsifies the claim that the displayed proof establishes the stated lower bound, not necessarily every possible lower bound for Transformers.",
+  "counterexample_family": "continuous bounded triangular tents f_w(x)=max(1-|x-1/2|/w,0)",
+  "rows": [
+    {
+      "width": 0.4,
+      "linf": 1.0,
+      "l2_analytic": 0.5163977794943222,
+      "l2_quadrature": 0.5163977794951292,
+      "abs_error": 8.070211166000263e-13,
+      "linf_over_l2": 1.9364916731037087
+    },
+    {
+      "width": 0.2,
+      "linf": 1.0,
+      "l2_analytic": 0.3651483716701107,
+      "l2_quadrature": 0.3651483716723929,
+      "abs_error": 2.2821744494194718e-12,
+      "linf_over_l2": 2.7386127875258306
+    },
+    {
+      "width": 0.1,
+      "linf": 1.0,
+      "l2_analytic": 0.2581988897471611,
+      "l2_quadrature": 0.2581988897536161,
+      "abs_error": 6.455003198624354e-12,
+      "linf_over_l2": 3.8729833462074175
+    },
+    {
+      "width": 0.05,
+      "linf": 1.0,
+      "l2_analytic": 0.18257418583505536,
+      "l2_quadrature": 0.18257418585331278,
+      "abs_error": 1.825742335093139e-11,
+      "linf_over_l2": 5.477225575051661
+    },
+    {
+      "width": 0.025,
+      "linf": 1.0,
+      "l2_analytic": 0.12909944487358055,
+      "l2_quadrature": 0.12909944492522035,
+      "abs_error": 5.1639803544389906e-11,
+      "linf_over_l2": 7.745966692414835
+    },
+    {
+      "width": 0.0125,
+      "linf": 1.0,
+      "l2_analytic": 0.09128709291752768,
+      "l2_quadrature": 0.09128709306358704,
+      "abs_error": 1.460593590518755e-10,
+      "linf_over_l2": 10.954451150103322
+    }
+  ],
+  "concrete_witness": {
+    "width": 0.0125,
+    "linf": 1.0,
+    "l2_analytic": 0.09128709291752768,
+    "l2_quadrature": 0.09128709306358704,
+    "abs_error": 1.460593590518755e-10,
+    "linf_over_l2": 10.954451150103322
+  },
+  "logic": "For every w, ||f_w||_infinity=1 and ||f_w||_2=sqrt(2w/3). As w->0 the latter tends to zero, so compactness/boundedness cannot imply equality or convert an L2 bound to the claimed pointwise sign argument.",
+  "negative_control": "For constant f(x)=1, both norms equal 1; the code verifies this special case does not rescue the universal inference.",
+  "environment": {
+    "python": "3.14.5 (main, May 10 2026, 18:26:20) [GCC 16.1.1 20260430]",
+    "numpy": "2.4.6",
+    "platform": "Linux-7.0.9-arch2-1-x86_64-with-glibc2.43"
+  },
+  "runtime_seconds": 0.0
+}
