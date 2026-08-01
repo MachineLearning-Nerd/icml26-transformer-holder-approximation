@@ -1,0 +1,18 @@
+[
+  {
+    "text": "Theorem 4.1 (Section 4) shows a Transformer with at most O(epsilon^{-d0/alpha}) blocks can approximate any bounded Holder-alpha function of d0-dimensional input to error less than epsilon.",
+    "status": "unverified"
+  },
+  {
+    "text": "Theorem 5.3 (Section 5) establishes a matching-type lower bound: any Transformer achieving epsilon approximation accuracy on this Holder class must have at least Omega(epsilon^{-d0/(4*alpha)}) blocks, derived via VC-dimension analysis.",
+    "status": "unverified"
+  },
+  {
+    "text": "The gap between the upper bound exponent -d0/alpha (Theorem 4.1) and lower bound exponent -d0/(4*alpha) (Theorem 5.3) leaves a factor-of-4 gap in the exponent that the authors note as room for tightening (Section 5).",
+    "status": "unverified"
+  },
+  {
+    "text": "Theorem 6.2 (Section 6) gives a statistical convergence rate of N^{-alpha/(2 d0 + alpha)} for Transformer-based nonparametric regression on Holder-alpha functions, under the constraint d0 > 2*alpha (Theorem 6.2).",
+    "status": "unverified"
+  }
+]

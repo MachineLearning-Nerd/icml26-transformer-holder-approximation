@@ -1,0 +1,23 @@
+{
+  "source_conditions_found": {
+    "d_{0}>2\\alpha": true,
+    "\\mathcal{O}(\\varepsilon^{-\\frac{d_{0}}{\\alpha}})": true,
+    "\\norm{f-g}_{2}<\\varepsilon": true
+  },
+  "all_source_conditions_found": true,
+  "cpu_rate_probe": {
+    "d0": 3,
+    "alpha": 1,
+    "epsilons": [
+      0.25,
+      0.125
+    ],
+    "block_proxies": [
+      64.0,
+      512.0
+    ],
+    "ratio": 8.0,
+    "expected_ratio": 8.0
+  },
+  "scope": "direct deterministic CPU audit of the stated asymptotic rate and theorem conditions; not a constructive end-to-end Transformer approximation."
+}

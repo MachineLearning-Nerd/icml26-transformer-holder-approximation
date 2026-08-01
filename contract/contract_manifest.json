@@ -1,0 +1,26 @@
+{
+  "retrieved_at_utc": "2026-08-01T08:30:19.314681+00:00",
+  "live_snapshot": "outputs/live/20260801T083019Z",
+  "source_urls": {
+    "metadata": "https://huggingface.co/datasets/ICML-2026-agent-repro/challenge/resolve/main/index.json",
+    "claims_default": "https://icml-2026-agent-repro-challenge.static.hf.space/claims.json",
+    "claims_anchored": "https://icml-2026-agent-repro-challenge.static.hf.space/claims_anchored.json",
+    "challenge_readme": "https://huggingface.co/datasets/ICML-2026-agent-repro/challenge/resolve/main/README.md"
+  },
+  "openreview_id": "mWBxEAq9lv",
+  "submission_number": 9121,
+  "title": "Approximation Error Upper and Lower Bounds  for H\u00f6lder Class with Transformers",
+  "claim_resolution": "claims_anchored.json overrides claims.json",
+  "claim_count": 4,
+  "maximum_points": 8,
+  "sha256": {
+    "metadata.json": "7622ce93fd16da8882a020d19c3c4566c598adac992d561011e86f98b56d16ac",
+    "live_claims.json": "86ad1f432a71cf6544c840985ed4086d8c77dfe3d176418361d1a77353ff2566",
+    "challenge_readme.md": "027f66e6da758c4a0d75fff6c9298e5322dde64d21a97d33e4367e42c3a421c5"
+  },
+  "source_paper": {
+    "arxiv": "2605.07463",
+    "source_url": "https://export.arxiv.org/e-print/2605.07463",
+    "pdf_url": "https://arxiv.org/pdf/2605.07463"
+  }
+}

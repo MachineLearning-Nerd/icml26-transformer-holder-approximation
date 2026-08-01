@@ -1,0 +1,22 @@
+{
+  "i": 9121,
+  "pid": "61835",
+  "orid": "mWBxEAq9lv",
+  "title": "Approximation Error Upper and Lower Bounds  for H\u00f6lder Class with Transformers",
+  "authors": [
+    "Xin He",
+    "Yuling Jiao",
+    "Xiliang Lu",
+    "Jerry Zhijian Yang"
+  ],
+  "insts": [],
+  "area": "Theory",
+  "sub": "Learning Theory",
+  "type": "Poster",
+  "spot": false,
+  "or": "https://openreview.net/forum?id=mWBxEAq9lv",
+  "vs": "https://icml.cc/virtual/2026/poster/61835",
+  "arxiv": "2605.07463",
+  "alphaxiv": "2605.07463",
+  "hf": ""
+}
