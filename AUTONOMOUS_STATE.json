@@ -17,8 +17,8 @@
     "3": 0,
     "4": 0
   },
-  "last_checkpoint": "2026-08-01T08:30:19Z",
-  "last_known_git_commit": "396a9bd9ceca01db93ef33ab61b85967fb0fb4b4",
+  "last_checkpoint": "2026-08-01T08:37:00Z",
+  "last_known_git_commit": "6b34fcb601760269b0bca847042e2319f8aa6f8d",
   "publication_allowed": false,
   "compute_policy": "cpu-upgrade default; no job launched; source/theorem audit CPU feasible",
   "github_repository": "https://github.com/MachineLearning-Nerd/icml26-repro-mWBxEAq9lv-transformer-holder-approximation"
