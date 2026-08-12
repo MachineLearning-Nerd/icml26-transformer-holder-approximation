@@ -1,8 +1,8 @@
 {
   "schema_version": 1,
   "openreview_id": "mWBxEAq9lv",
-  "phase": "claim_2_attempt_1_l2_to_linf_proof_counterexample_complete",
-  "next_action": "independent_review_claim_2_falsification_then_advance_claim_3",
+  "phase": "claim_2_proof_route_falsification_documented",
+  "next_action": "publish_clean_repository_name_then_continue_claim_3",
   "active_run_ids": [],
   "completed_milestones": [
     "live_duplicate_gate",
@@ -23,7 +23,7 @@
   "last_known_git_commit": "972cc55ccce41e88a8f201bee1245726595f5431",
   "publication_allowed": false,
   "compute_policy": "local CPU/local GPU only; no HF cpu-upgrade, Jobs, paid, or remote compute",
-  "github_repository": "https://github.com/MachineLearning-Nerd/icml26-repro-mWBxEAq9lv-transformer-holder-approximation",
+  "github_repository": "https://github.com/MachineLearning-Nerd/icml26-transformer-holder-approximation",
   "claim_1_outcome": {
     "verdict": "toy",
     "scope": "clean-room d0=3 alpha=1 bounded Lipschitz target with one explicit attention encoder and ReLU readout; not universal Theorem 4.1 validation",
@@ -35,5 +35,12 @@
     "scope": "The pinned proof route from L2 approximation to uniform sign preservation is invalid; this does not rule out an alternative lower-bound proof.",
     "evidence": "outputs/claim2_l2_to_linf_counterexample/result.json",
     "negative_control": "constant function has equal L2/Linfinity norms but does not validate the universal inference"
+  },
+  "documentation": {
+    "readme": "complete",
+    "branch_audit": "pending",
+    "status": "updated",
+    "citation_and_thank_you": "complete",
+    "repository_rename": "pending"
   }
 }
