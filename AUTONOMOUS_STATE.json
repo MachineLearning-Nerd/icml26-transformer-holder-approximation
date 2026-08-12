@@ -1,8 +1,8 @@
 {
   "schema_version": 1,
   "openreview_id": "mWBxEAq9lv",
-  "phase": "claim_2_proof_route_falsification_documented",
-  "next_action": "publish_clean_repository_name_then_continue_claim_3",
+  "phase": "published_and_live_verified_claim_2_proof_route_falsified",
+  "next_action": "continue_claim_3_exponent_gap_audit",
   "active_run_ids": [],
   "completed_milestones": [
     "live_duplicate_gate",
@@ -19,8 +19,8 @@
     "3": 0,
     "4": 0
   },
-  "last_checkpoint": "2026-08-01T12:45:00Z",
-  "last_known_git_commit": "972cc55ccce41e88a8f201bee1245726595f5431",
+  "last_checkpoint": "2026-08-12T22:15:29Z",
+  "last_known_git_commit": "de831e400ea65cb0d21c86878fa71b18f5195db3",
   "publication_allowed": false,
   "compute_policy": "local CPU/local GPU only; no HF cpu-upgrade, Jobs, paid, or remote compute",
   "github_repository": "https://github.com/MachineLearning-Nerd/icml26-transformer-holder-approximation",
@@ -38,9 +38,17 @@
   },
   "documentation": {
     "readme": "complete",
-    "branch_audit": "pending",
-    "status": "updated",
+    "branch_audit": "complete",
+    "status": "complete",
     "citation_and_thank_you": "complete",
-    "repository_rename": "pending"
+    "repository_rename": "complete"
+  },
+  "live_verification": {
+    "repository_name": "icml26-transformer-holder-approximation",
+    "default_branch": "main",
+    "branch_count": 1,
+    "old_orx_branches_present": false,
+    "reachable_commit_identity": "MachineLearning-Nerd <37579156+MachineLearning-Nerd@users.noreply.github.com>",
+    "readme_blob": "52c091cc36411932bbd88e3009cb29ea17b62491"
   }
 }

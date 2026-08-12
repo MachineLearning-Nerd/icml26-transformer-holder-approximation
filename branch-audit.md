@@ -14,13 +14,13 @@ proof-route counterexample, and the documentation in the root.
 - [x] README documents the paper, all four claims, repository contents, evidence paths, citation, and thank-you note.
 - [x] Current branch state is explicitly documented as `main` only.
 - [x] No former `orx/*` branch names are present in the cloned refs.
-- [ ] Normalize all reachable commit author and committer identities.
-- [ ] Rename the GitHub repository.
-- [ ] Push the clean name and verify the live default branch, README, refs, and identity set.
+- [x] Normalize all reachable commit author and committer identities.
+- [x] Rename the GitHub repository.
+- [x] Push the clean name and verify the live default branch, README, refs, and identity set.
 
 ## Attribution policy
 
-All reachable commits will be normalized to:
+All reachable commits are normalized to:
 
 ```text
 MachineLearning-Nerd <37579156+MachineLearning-Nerd@users.noreply.github.com>

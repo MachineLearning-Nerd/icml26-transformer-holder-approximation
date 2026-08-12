@@ -8,7 +8,7 @@ Source paper/version: arXiv:2605.07463, source archive and PDF SHA-256 in eviden
 Official code/data/model pins: no author executable located during source archive audit; clean-room direct reproduction required
 Compute policy: local CPU/local GPU only; no HF cpu-upgrade, Jobs, paid, or remote compute
 GitHub repository: https://github.com/MachineLearning-Nerd/icml26-transformer-holder-approximation
-Current phase: Claim 2 proof-route falsification documented; repository publication pending
+Current phase: Claim 2 proof-route falsification documented and repository published
 Per-claim state: C1 toy (five-seed direct Transformer-style d0=3 approximation; not a theorem verification); C2 falsified for the pinned proof route (continuous bounded compact L2/Linfinity counterexample); C3-C4 not started
-Publication status: documentation prepared; rename, attribution normalization, push, and live verification pending; no points claimed
+Publication status: renamed, attribution-normalized, pushed, and live-verified; no points claimed; the four-claim audit remains incomplete
 Selection rationale: Anchored live contract has four independently inspectable theorem/rate claims (8-point ceiling). Primary arXiv source archive and PDF downloaded successfully, theorem source is available, and direct numerical/constructive low-dimensional experiments are CPU feasible. Chosen over high-nominal candidates whose contracts require unavailable large-model/RL/video experiments.
