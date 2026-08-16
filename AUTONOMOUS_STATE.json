@@ -1,54 +1,87 @@
 {
-  "schema_version": 1,
+  "schema_version": 2,
+  "paper": "Approximation Error Upper and Lower Bounds for Hölder Class with Transformers",
+  "arxiv": "2605.07463v2",
   "openreview_id": "mWBxEAq9lv",
-  "phase": "published_and_live_verified_claim_2_proof_route_falsified",
-  "next_action": "continue_claim_3_exponent_gap_audit",
-  "active_run_ids": [],
-  "completed_milestones": [
-    "live_duplicate_gate",
-    "live_contract_saved",
-    "source_archive_and_pdf_pinned",
-    "claim_1_attempt_1_source_cpu_audit",
-    "claim_1_attempt_2_constructive_local_cpu_toy",
-    "claim_2_attempt_1_l2_to_linf_proof_counterexample"
+  "authors": [
+    "Xin He",
+    "Yuling Jiao",
+    "Xiliang Lu",
+    "Jerry Zhijian Yang"
   ],
-  "failed_attempts": [],
+  "phase": "dossier_published_claim_1_toy_claim_2_route_falsified",
+  "next_action": "continue_claim_3_exponent_gap_audit",
+  "claim_status": {
+    "1": "toy_reduced_constructive_approximation",
+    "2": "falsified_pinned_l2_linf_proof_route",
+    "3": "unverified_not_started",
+    "4": "unverified_not_started"
+  },
   "claim_attempt_counts": {
     "1": 2,
     "2": 1,
     "3": 0,
     "4": 0
   },
-  "last_checkpoint": "2026-08-12T22:15:29Z",
-  "last_known_git_commit": "de831e400ea65cb0d21c86878fa71b18f5195db3",
-  "publication_allowed": false,
-  "compute_policy": "local CPU/local GPU only; no HF cpu-upgrade, Jobs, paid, or remote compute",
+  "completed_milestones": [
+    "live_duplicate_gate",
+    "live_contract_saved",
+    "source_archive_and_pdf_pinned",
+    "claim_1_attempt_1_source_cpu_audit",
+    "claim_1_attempt_2_constructive_local_cpu_toy",
+    "claim_2_attempt_1_l2_to_linf_proof_counterexample",
+    "repository_dossier_published",
+    "fresh_clone_verifier_passed"
+  ],
+  "failed_attempts": [],
+  "dossier_publication_allowed": true,
+  "full_scientific_release_allowed": false,
+  "compute_policy": "local CPU/local GPU only; no HF cpu-upgrade/Jobs/paid/remote compute",
+  "old_repository": "icml26-repro-mWBxEAq9lv-transformer-holder-approximation",
   "github_repository": "https://github.com/MachineLearning-Nerd/icml26-transformer-holder-approximation",
-  "claim_1_outcome": {
-    "verdict": "toy",
-    "scope": "clean-room d0=3 alpha=1 bounded Lipschitz target with one explicit attention encoder and ReLU readout; not universal Theorem 4.1 validation",
-    "evidence": "outputs/claim1_constructive_toy/audit.md",
-    "negative_control": "permuted train labels increase L2 error in every 15 seed\u00d7width cell"
-  },
-  "claim_2_outcome": {
-    "verdict": "falsified",
-    "scope": "The pinned proof route from L2 approximation to uniform sign preservation is invalid; this does not rule out an alternative lower-bound proof.",
-    "evidence": "outputs/claim2_l2_to_linf_counterexample/result.json",
-    "negative_control": "constant function has equal L2/Linfinity norms but does not validate the universal inference"
-  },
-  "documentation": {
-    "readme": "complete",
-    "branch_audit": "complete",
-    "status": "complete",
-    "citation_and_thank_you": "complete",
-    "repository_rename": "complete"
+  "pre_dossier_main": "60282dc07016663b69fff7084c512c44ee56a462",
+  "dossier_commit": "6581297e781fbda1d536ff8972909a78f24710ef",
+  "dossier_commit_message": "docs(audit): publish Transformer Holder dossier",
+  "recovery_bundle_sha256": "e67ab093ecab92fcc48f3b733cfea326a9534f47298984f3f43526501ded92e6",
+  "evidence": {
+    "contract_manifest_sha256": "877766a40afa82b81dc64c97d488759d4d59fde5fec17010b866c3ee1dce7c57",
+    "paper_pdf_sha256": "801cf7d435d1075c3d792b8d6dcb5cc3346e64b40411a6cee6864e7f3b0aaafe",
+    "paper_source_sha256": "5251830a4370729109be794b7c5c38ea3ab6976073b9044a01d0f1bccde9ba4f",
+    "claim1_attempt1_result_sha256": "6e57d1148bdfb4909b90bdbc1b186582464522c7fb8e22045817c7f69eb394b2",
+    "claim1_output_manifest_sha256": "216c5bdeb03864d82119bfe845562ef83701bbb05bbed4c7ce575c803b411958",
+    "claim1_summary_sha256": "e25e285f6d2d562b89fcda610677ecb78ce05bbbda1e907e08868a739d272980",
+    "claim2_result_sha256": "54ec82b26f6cd81f9e99aafaa56bb5e4cdb9ea658aa3413bc8006f144120d00b",
+    "claim2_output_manifest_sha256": "93993fcbf8801a7bf4afe4d7076395951c13ac93d1791747c9145b19663cd9c8"
   },
   "live_verification": {
     "repository_name": "icml26-transformer-holder-approximation",
     "default_branch": "main",
+    "last_verified_dossier_commit": "6581297e781fbda1d536ff8972909a78f24710ef",
     "branch_count": 1,
+    "descriptive_branch_count": 0,
     "old_orx_branches_present": false,
     "reachable_commit_identity": "MachineLearning-Nerd <37579156+MachineLearning-Nerd@users.noreply.github.com>",
-    "readme_blob": "52c091cc36411932bbd88e3009cb29ea17b62491"
+    "fresh_clone_verifier": "FINAL_AUDIT=VERIFIED branches=1 commits=11 claim1=toy claim2=proof-route-falsified claims3-4=unverified",
+    "fresh_clone_path": "/tmp/icml-transformer-holder-final-verify.rYrJ37",
+    "github_description": "ICML 2026 scoped reproduction audit for Approximation Error Upper and Lower Bounds for Hölder Class with Transformers",
+    "github_homepage": "https://arxiv.org/abs/2605.07463"
+  },
+  "documentation": {
+    "readme": "complete",
+    "status": "complete",
+    "branch_audit": "complete",
+    "claim_evidence": "complete",
+    "source_audit": "complete",
+    "environment": "complete",
+    "report": "complete",
+    "claims_json": "complete",
+    "citation_and_thank_you": "complete",
+    "evidence_manifest": "complete",
+    "final_verifier": "complete",
+    "repository_rename": "complete"
+  },
+  "attribution": {
+    "name": "MachineLearning-Nerd",
+    "email": "37579156+MachineLearning-Nerd@users.noreply.github.com"
   }
 }
