@@ -1,0 +1,18 @@
+cff-version: 1.2.0
+title: Approximation Error Upper and Lower Bounds for Hölder Class with Transformers — independent audit
+type: software
+date-released: 2026-08-17
+authors:
+  - family-names: He
+    given-names: Xin
+  - family-names: Jiao
+    given-names: Yuling
+  - family-names: Lu
+    given-names: Xiliang
+  - family-names: Yang
+    given-names: Jerry Zhijian
+repository-code: https://github.com/MachineLearning-Nerd/icml26-transformer-holder-approximation
+url: https://arxiv.org/abs/2605.07463
+identifiers:
+  - type: doi
+    value: 10.48550/arXiv.2605.07463

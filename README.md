@@ -82,6 +82,24 @@ done
 
 The commands reproduce finite numerical checks only. They cannot turn a toy experiment into a proof of a universal theorem.
 
+## Audit dossier
+
+The durable records for this scoped audit are:
+
+- STATUS.md — current phase, claim boundary, and publication state.
+- CLAIM_EVIDENCE.md — claim-to-code-to-output production paths.
+- SOURCE_AUDIT.md — paper, source, and provenance pins.
+- ENVIRONMENT.md — recorded runtime and compute scope.
+- REPORT.md — concise result and limitation report.
+- BRANCH_AUDIT.md — branch, history, and attribution audit.
+- claims.json — machine-readable scoped verdicts.
+- EVIDENCE_MANIFEST.json — content and output hashes.
+- verify_final.py — read-only final-state verifier.
+
+These records are an independent reproduction dossier, not a complete theorem
+proof or an author endorsement. The strongest results are a reduced
+five-seed approximation experiment and a proof-route counterexample.
+
 ## Repository map
 
 | Path | Purpose |

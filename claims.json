@@ -1,0 +1,64 @@
+{
+  "schema_version": 2,
+  "paper": "Approximation Error Upper and Lower Bounds for Hölder Class with Transformers",
+  "arxiv": "2605.07463v2",
+  "openreview_id": "mWBxEAq9lv",
+  "claims": [
+    {
+      "id": 1,
+      "status": "TOY_REDUCED_CONSTRUCTIVE_APPROXIMATION",
+      "paper_target": "Theorem 4.1 Holder approximation upper bound",
+      "implementation": [
+        "src/claim1_direct_cpu_audit.py",
+        "src/claim1_constructive_transformer_toy.py"
+      ],
+      "checker": [
+        "tests/test_claim1.py",
+        "tests/test_claim1_constructive.py",
+        "outputs/claim1_constructive_toy/summary.json"
+      ],
+      "evidence": [
+        "five seeds",
+        "widths 16, 64, 256",
+        "15 normal cells",
+        "15 permuted-label controls"
+      ],
+      "scope": "One reduced d0=3 alpha=1 target and explicit encoder/readout; not universal theorem verification"
+    },
+    {
+      "id": 2,
+      "status": "FALSIFIED_PINNED_L2_LINF_PROOF_ROUTE",
+      "paper_target": "Theorem 5.3 VC lower-bound proof route",
+      "implementation": [
+        "src/claim2_l2_to_linf_counterexample.py"
+      ],
+      "checker": [
+        "tests/test_claim2_l2_to_linf.py",
+        "outputs/claim2_l2_to_linf_counterexample/result.json"
+      ],
+      "evidence": [
+        "six continuous triangular-tent widths",
+        "w=0.0125 witness with L2 below 0.1 and Linfinity 1",
+        "dense quadrature"
+      ],
+      "scope": "Falsifies the displayed L2-to-Linfinity inference, not every alternative lower-bound proof"
+    },
+    {
+      "id": 3,
+      "status": "UNVERIFIED_NOT_STARTED",
+      "paper_target": "Factor-of-four exponent gap",
+      "implementation": [],
+      "checker": [],
+      "scope": "No independent asymptotic tightness audit"
+    },
+    {
+      "id": 4,
+      "status": "UNVERIFIED_NOT_STARTED",
+      "paper_target": "Theorem 6.2 Transformer regression rate",
+      "implementation": [],
+      "checker": [],
+      "scope": "No regression protocol or rate experiment"
+    }
+  ],
+  "boundary": "The repository contains finite scoped evidence and a proof-route counterexample, not a complete paper reproduction."
+}
