@@ -45,9 +45,9 @@
   "old_repository": "icml26-repro-mWBxEAq9lv-transformer-holder-approximation",
   "github_repository": "https://github.com/MachineLearning-Nerd/icml26-transformer-holder-approximation",
   "pre_dossier_main": "60282dc07016663b69fff7084c512c44ee56a462",
-  "dossier_commit": "6581297e781fbda1d536ff8972909a78f24710ef",
-  "dossier_commit_message": "docs(audit): publish Transformer Holder dossier",
-  "recovery_bundle_sha256": "e67ab093ecab92fcc48f3b733cfea326a9534f47298984f3f43526501ded92e6",
+  "dossier_commit": "45d3f09329197507433987870c9e3d4db9b8ce06",
+  "dossier_commit_message": "Standardize Transformer Holder audit state",
+  "recovery_bundle_sha256": "a81e37706137d5c4ff83e275657f3cec326818d46f5df8aa4a6d771d2ed7e797",
   "evidence": {
     "contract_manifest_sha256": "877766a40afa82b81dc64c97d488759d4d59fde5fec17010b866c3ee1dce7c57",
     "paper_pdf_sha256": "801cf7d435d1075c3d792b8d6dcb5cc3346e64b40411a6cee6864e7f3b0aaafe",
@@ -61,12 +61,12 @@
   "live_verification": {
     "repository_name": "icml26-transformer-holder-approximation",
     "default_branch": "main",
-    "last_verified_dossier_commit": "6581297e781fbda1d536ff8972909a78f24710ef",
+    "last_verified_dossier_commit": "45d3f09329197507433987870c9e3d4db9b8ce06",
     "branch_count": 1,
     "descriptive_branch_count": 0,
     "old_orx_branches_present": false,
     "reachable_commit_identity": "MachineLearning-Nerd <MachineLearning-Nerd@users.noreply.github.com>",
-    "fresh_clone_verifier": "FINAL_AUDIT=VERIFIED branches=1 commits=12 claim1=toy claim2=proof-route-falsified claims3-4=unverified",
+    "fresh_clone_verifier": "FINAL_AUDIT=VERIFIED branches=1 commits=13 claim1=toy claim2=proof-route-falsified claims3-4=unverified",
     "fresh_clone_path": "/tmp/icml-transformer-holder-final-verify.rYrJ37",
     "github_description": "ICML 2026 scoped reproduction audit for Approximation Error Upper and Lower Bounds for Hölder Class with Transformers",
     "github_homepage": "https://arxiv.org/abs/2605.07463"
@@ -85,7 +85,7 @@
     "final_verifier": "complete",
     "repository_rename": "complete"
   },
-  "verified_reachable_commits": 12,
+  "verified_reachable_commits": 13,
   "dossier_files": [
     "README.md",
     "STATUS.md",

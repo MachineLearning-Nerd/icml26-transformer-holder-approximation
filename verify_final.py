@@ -285,7 +285,7 @@ def main() -> int:
         and state.get("official_author_endorsement") is False
         and state.get("live_verification", {}).get("branch_count") == 1
         and state.get("live_verification", {}).get("default_branch") == "main"
-        and state.get("verified_reachable_commits") == 12,
+        and state.get("verified_reachable_commits") == 13,
         "state publication boundary mismatch",
     )
     require(
