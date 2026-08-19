@@ -4,6 +4,12 @@ Independent, source-pinned audit for **Xin He, Yuling Jiao, Xiliang Lu, and Jerr
 
 Paper pages: [arXiv abstract](https://arxiv.org/abs/2605.07463v2) · [HTML paper](https://arxiv.org/html/2605.07463) · [OpenReview submission mWBxEAq9lv](https://openreview.net/forum?id=mWBxEAq9lv) · [ICML 2026 poster](https://icml.cc/virtual/2026/poster/61835)
 
+Machine-readable overall verdict: PARTIAL_CLAIM_1_TOY_CLAIM_2_PINNED_ROUTE_FALSIFIED_CLAIMS_3_TO_4_UNVERIFIED.
+Publication boundary: publication_allowed=false for a complete reproduction or
+score; this repository publishes scoped toy and proof-route-falsification
+evidence only. score_claim=false and official_author_endorsement=false.
+
+## Outcome at a glance
 The arXiv source and PDF audited here are retained under `evidence/source/` and checked by `evidence/source/SHA256SUMS`. The source-archive audit did not locate an author-maintained executable implementation, dataset, or checkpoint, so the experiments below are explicitly labeled independent or clean-room audits.
 
 ## Outcome at a glance
@@ -93,6 +99,10 @@ The durable records for this scoped audit are:
 - REPORT.md — concise result and limitation report.
 - BRANCH_AUDIT.md — branch, history, and attribution audit.
 - claims.json — machine-readable scoped verdicts.
+- reproduction_verdicts.json — per-claim verdicts, production paths, evidence,
+  and publication boundary.
+- AUTONOMOUS_STATE.json — resumable audit state and canonical attribution
+  checkpoint.
 - EVIDENCE_MANIFEST.json — content and output hashes.
 - verify_final.py — read-only final-state verifier.
 
@@ -122,7 +132,7 @@ The repository is intentionally main-only. There are no experiment branches and 
 All reachable commits are normalized to:
 
 ```text
-MachineLearning-Nerd <37579156+MachineLearning-Nerd@users.noreply.github.com>
+MachineLearning-Nerd <MachineLearning-Nerd@users.noreply.github.com>
 ```
 
 ## Citation

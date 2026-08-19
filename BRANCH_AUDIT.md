@@ -19,7 +19,7 @@ there is no branch experiment lineage to rename.
 All reachable commits are attributed to:
 
 ~~~text
-MachineLearning-Nerd <37579156+MachineLearning-Nerd@users.noreply.github.com>
+MachineLearning-Nerd <MachineLearning-Nerd@users.noreply.github.com>
 ~~~
 
 The final verifier checks the remote branch set, default branch, reachable

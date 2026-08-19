@@ -1,6 +1,15 @@
 {
   "schema_version": 2,
   "repository": "MachineLearning-Nerd/icml26-transformer-holder-approximation",
+  "overall_verdict": "PARTIAL_CLAIM_1_TOY_CLAIM_2_PINNED_ROUTE_FALSIFIED_CLAIMS_3_TO_4_UNVERIFIED",
+  "publication_allowed": false,
+  "publication_boundary": "PARTIAL_TOY_AND_ROUTE_FALSIFICATION_NO_FULL_REPRODUCTION",
+  "score_claim": false,
+  "official_author_endorsement": false,
+  "attribution": {
+    "name": "MachineLearning-Nerd",
+    "email": "MachineLearning-Nerd@users.noreply.github.com"
+  },
   "paper": "Approximation Error Upper and Lower Bounds for Hölder Class with Transformers",
   "branch_contract": {
     "default": "main",
@@ -26,17 +35,19 @@
     "src/claim1_direct_cpu_audit.py": "f557955b0607bb579c7ca1d9fe34e749fccf68a5cdd8021c8086dd40c7dcd3f8"
   },
   "files": [
-    {"path": "README.md", "sha256": "4fcaf7b3404a2da1552cf73a4c4748e88473054b8707979edeabd53518cb24e3"},
-    {"path": "STATUS.md", "sha256": "9ece6f97552794ef45169d2f3b021271c624881727b8a2a26f9c90b930627728"},
-    {"path": "branch-audit.md", "sha256": "2d733ba16851c59e80705b3169a6e1d7f1d33a11b66a6a686c6821e21142ff79"},
-    {"path": "BRANCH_AUDIT.md", "sha256": "4a6a5534ae40e6ecac3f3d790db6f77c13f7e8d9612b66cd640708f9256e514f"},
+    {"path": "README.md", "sha256": "701218472ccdcab33fa6c060b09806c7f9e190912f6eb528f727afb3f4fd64d5"},
+    {"path": "STATUS.md", "sha256": "504e81e6a5af4f958d62a7f42e4d8e63f7ee69e6374b86944d6e09f65227acca"},
+    {"path": "branch-audit.md", "sha256": "b267fbee8cff614d8f5fb17149af07818a9de021196e2a11fb2db0d4cb7d796e"},
+    {"path": "BRANCH_AUDIT.md", "sha256": "fe8adf2fc748e4a7e182c07a765f666234a14003ec27d0fb79c35d11f26955cf"},
     {"path": "CLAIM_EVIDENCE.md", "sha256": "11823e21ae64789de1919753e350aca83d3e4c2376819308f52db8d2992578cb"},
     {"path": "SOURCE_AUDIT.md", "sha256": "50b328aa2637003d91c7eb33ce84d52a60a82f747a237cf73bf4181f2c5efd03"},
     {"path": "ENVIRONMENT.md", "sha256": "80b148fd71b8df0c4485bc80f1f7d9ee9cbe60eadd841ff262ded906489444db"},
-    {"path": "REPORT.md", "sha256": "6f358be36688b18c228e5eae33cf9f8714a0aa5a038aad6042c608187952a564"},
+    {"path": "REPORT.md", "sha256": "82cfc835b21ae72ae1fd1c66a2a4e54db37922dbdf13cb39617566e773c28264"},
     {"path": "AUTHOR_THANK_YOU.md", "sha256": "739987abd23fd88016315fd596f43a5b2937aed80cd4eb58dd14bcf45f486f28"},
     {"path": "CITATION.cff", "sha256": "bc20b0297234ce29c9a2db0fd322c6795ffce5dc28b3adeeffac30dd172e3cf8"},
-    {"path": "claims.json", "sha256": "1f5481e2e50295ecf6d6085acf373c87983ad18b73f66c7c0edc3cc74ecdf349"},
-    {"path": "verify_final.py", "sha256": "9c620f181330783b6da4fa01975e3e0fa80269139b079eb718f5652b3a68de18"}
+    {"path": "claims.json", "sha256": "afe83476bdfa93ed5c47e9e646962900e4fa8212ad3ea1a6ddf77ba564dac8f4"},
+    {"path": "reproduction_verdicts.json", "sha256": "f6c8425f734ccdc2b7ce60fe91a156cd1001188e73f1fd4c112aebe9b54b1f32"},
+    {"path": "AUTONOMOUS_STATE.json", "sha256": "c87839d668533d20b57770ea11202ed61c9a34405aef0216e199cd94f9ac3fc4"},
+    {"path": "verify_final.py", "sha256": "e4ebefc07dca05bf7560d76dce194f4a4fe9707fc20008fa9a8c14f7e63f1299"}
   ]
 }

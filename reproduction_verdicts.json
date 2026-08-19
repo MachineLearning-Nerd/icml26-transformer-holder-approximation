@@ -1,0 +1,74 @@
+{
+  "schema_version": 1,
+  "repository": "MachineLearning-Nerd/icml26-transformer-holder-approximation",
+  "paper": {
+    "title": "Approximation Error Upper and Lower Bounds for Hölder Class with Transformers",
+    "authors": [
+      "Xin He",
+      "Yuling Jiao",
+      "Xiliang Lu",
+      "Jerry Zhijian Yang"
+    ],
+    "arxiv": "2605.07463v2",
+    "openreview_id": "mWBxEAq9lv"
+  },
+  "overall_verdict": "PARTIAL_CLAIM_1_TOY_CLAIM_2_PINNED_ROUTE_FALSIFIED_CLAIMS_3_TO_4_UNVERIFIED",
+  "publication_allowed": false,
+  "publication_boundary": "PARTIAL_TOY_AND_ROUTE_FALSIFICATION_NO_FULL_REPRODUCTION",
+  "score_claim": false,
+  "official_author_endorsement": false,
+  "claims": [
+    {
+      "id": "C1",
+      "status": "TOY_REDUCED_CONSTRUCTIVE_APPROXIMATION",
+      "status_detail": "FIVE_SEED_REDUCED_TRANSFORMER_STYLE_TOY_ONLY",
+      "production_path": [
+        "src/claim1_direct_cpu_audit.py",
+        "src/claim1_constructive_transformer_toy.py",
+        "tests/test_claim1.py",
+        "tests/test_claim1_constructive.py",
+        "outputs/claim1_constructive_toy/summary.json"
+      ],
+      "claim_boundary": "A five-seed reduced d0=3, alpha=1 target shows an increasing-width finite error trend and all controls degrade; this is not the universal Hölder theorem or its block-count construction.",
+      "evidence": [
+        "evidence/claim1_attempt1/result.json",
+        "outputs/claim1_constructive_toy/summary.json",
+        "outputs/claim1_constructive_toy/audit.md",
+        "outputs/claim1_constructive_toy/SHA256SUMS"
+      ]
+    },
+    {
+      "id": "C2",
+      "status": "FALSIFIED_PINNED_L2_LINF_PROOF_ROUTE",
+      "status_detail": "DISPLAYED_L2_TO_LINF_SIGN_PRESERVATION_STEP_FAILS",
+      "production_path": [
+        "src/claim2_l2_to_linf_counterexample.py",
+        "tests/test_claim2_l2_to_linf.py",
+        "outputs/claim2_l2_to_linf_counterexample/result.json"
+      ],
+      "claim_boundary": "A continuous triangular-tent witness falsifies the displayed L2-to-Linfinity inference in the pinned proof route; it does not rule out every alternative lower-bound proof.",
+      "evidence": [
+        "outputs/claim2_l2_to_linf_counterexample/result.json",
+        "outputs/claim2_l2_to_linf_counterexample/run.log",
+        "outputs/claim2_l2_to_linf_counterexample/stdout.log",
+        "outputs/claim2_l2_to_linf_counterexample/SHA256SUMS"
+      ]
+    },
+    {
+      "id": "C3",
+      "status": "UNVERIFIED_NOT_STARTED",
+      "status_detail": "NO_INDEPENDENT_AUDIT_COMMITTED",
+      "production_path": null,
+      "claim_boundary": "The factor-of-four exponent-gap tightness analysis remains unverified.",
+      "evidence": []
+    },
+    {
+      "id": "C4",
+      "status": "UNVERIFIED_NOT_STARTED",
+      "status_detail": "NO_INDEPENDENT_AUDIT_COMMITTED",
+      "production_path": null,
+      "claim_boundary": "The Transformer regression excess-risk rate remains unverified.",
+      "evidence": []
+    }
+  ]
+}

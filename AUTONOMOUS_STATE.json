@@ -9,7 +9,7 @@
     "Xiliang Lu",
     "Jerry Zhijian Yang"
   ],
-  "phase": "dossier_published_claim_1_toy_claim_2_route_falsified",
+  "phase": "published_scoped_partial_audit",
   "next_action": "continue_claim_3_exponent_gap_audit",
   "claim_status": {
     "1": "toy_reduced_constructive_approximation",
@@ -36,6 +36,11 @@
   "failed_attempts": [],
   "dossier_publication_allowed": true,
   "full_scientific_release_allowed": false,
+  "publication_allowed": false,
+  "overall_verdict": "PARTIAL_CLAIM_1_TOY_CLAIM_2_PINNED_ROUTE_FALSIFIED_CLAIMS_3_TO_4_UNVERIFIED",
+  "publication_boundary": "PARTIAL_TOY_AND_ROUTE_FALSIFICATION_NO_FULL_REPRODUCTION",
+  "score_claim": false,
+  "official_author_endorsement": false,
   "compute_policy": "local CPU/local GPU only; no HF cpu-upgrade/Jobs/paid/remote compute",
   "old_repository": "icml26-repro-mWBxEAq9lv-transformer-holder-approximation",
   "github_repository": "https://github.com/MachineLearning-Nerd/icml26-transformer-holder-approximation",
@@ -60,8 +65,8 @@
     "branch_count": 1,
     "descriptive_branch_count": 0,
     "old_orx_branches_present": false,
-    "reachable_commit_identity": "MachineLearning-Nerd <37579156+MachineLearning-Nerd@users.noreply.github.com>",
-    "fresh_clone_verifier": "FINAL_AUDIT=VERIFIED branches=1 commits=11 claim1=toy claim2=proof-route-falsified claims3-4=unverified",
+    "reachable_commit_identity": "MachineLearning-Nerd <MachineLearning-Nerd@users.noreply.github.com>",
+    "fresh_clone_verifier": "FINAL_AUDIT=VERIFIED branches=1 commits=12 claim1=toy claim2=proof-route-falsified claims3-4=unverified",
     "fresh_clone_path": "/tmp/icml-transformer-holder-final-verify.rYrJ37",
     "github_description": "ICML 2026 scoped reproduction audit for Approximation Error Upper and Lower Bounds for Hölder Class with Transformers",
     "github_homepage": "https://arxiv.org/abs/2605.07463"
@@ -80,8 +85,26 @@
     "final_verifier": "complete",
     "repository_rename": "complete"
   },
+  "verified_reachable_commits": 12,
+  "dossier_files": [
+    "README.md",
+    "STATUS.md",
+    "REPORT.md",
+    "CLAIM_EVIDENCE.md",
+    "SOURCE_AUDIT.md",
+    "BRANCH_AUDIT.md",
+    "branch-audit.md",
+    "ENVIRONMENT.md",
+    "AUTHOR_THANK_YOU.md",
+    "CITATION.cff",
+    "claims.json",
+    "reproduction_verdicts.json",
+    "EVIDENCE_MANIFEST.json",
+    "verify_final.py",
+    "AUTONOMOUS_STATE.json"
+  ],
   "attribution": {
     "name": "MachineLearning-Nerd",
-    "email": "37579156+MachineLearning-Nerd@users.noreply.github.com"
+    "email": "MachineLearning-Nerd@users.noreply.github.com"
   }
 }

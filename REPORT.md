@@ -26,3 +26,7 @@ Claims 3 and 4 were not attempted. No challenge points are claimed.
 The repository is ready as a scoped audit dossier. A full scientific release
 remains disallowed until the unverified claims and the theorem-level boundaries
 are addressed.
+
+Machine-readable overall verdict: PARTIAL_CLAIM_1_TOY_CLAIM_2_PINNED_ROUTE_FALSIFIED_CLAIMS_3_TO_4_UNVERIFIED.
+The publication boundary is publication_allowed=false for a complete
+reproduction or score; score_claim=false and official_author_endorsement=false.

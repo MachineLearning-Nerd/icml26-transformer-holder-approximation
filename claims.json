@@ -3,6 +3,12 @@
   "paper": "Approximation Error Upper and Lower Bounds for Hölder Class with Transformers",
   "arxiv": "2605.07463v2",
   "openreview_id": "mWBxEAq9lv",
+  "repository": "MachineLearning-Nerd/icml26-transformer-holder-approximation",
+  "overall_verdict": "PARTIAL_CLAIM_1_TOY_CLAIM_2_PINNED_ROUTE_FALSIFIED_CLAIMS_3_TO_4_UNVERIFIED",
+  "publication_allowed": false,
+  "publication_boundary": "PARTIAL_TOY_AND_ROUTE_FALSIFICATION_NO_FULL_REPRODUCTION",
+  "score_claim": false,
+  "official_author_endorsement": false,
   "claims": [
     {
       "id": 1,
@@ -60,5 +66,9 @@
       "scope": "No regression protocol or rate experiment"
     }
   ],
-  "boundary": "The repository contains finite scoped evidence and a proof-route counterexample, not a complete paper reproduction."
+  "boundary": "The repository contains finite scoped evidence and a proof-route counterexample, not a complete paper reproduction.",
+  "attribution": {
+    "name": "MachineLearning-Nerd",
+    "email": "MachineLearning-Nerd@users.noreply.github.com"
+  }
 }
